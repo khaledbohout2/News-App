@@ -13,6 +13,6 @@ class UserDataService: NSObject {
 
     private override init () { }
 
-    var selectedFilter: User?
+    var selectedFilters: (Country, Category)?
 
 }
